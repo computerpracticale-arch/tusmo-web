@@ -1,0 +1,415 @@
+
+*{
+   margin-top: 0;
+   padding: 0;
+  
+}
+
+nav{
+    background-color: rgba(255, 255, 255, 0.675);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    align-items: center;
+    box-shadow: 1px 1px 5px rgba(104, 102, 102, 0.081);
+    position: absolute;
+    position: fixed;
+    width: 100%;
+    left: 0;
+  
+
+}
+body{
+    background-color:rgb(248, 248, 248)
+}
+.nav img{
+    width: 70px;
+    margin-left: 200px;
+}
+.nav{
+    display: flex;
+    width: 100%;
+    
+     
+
+}
+ul{
+    list-style: none;
+    display: flex;
+    color: rgb(213, 47, 1);
+    gap: 14px;
+    margin-left: 300px;
+    margin-top: 18px;
+}
+.h1-p{
+    margin-top: 9px;
+    text-align: center;
+    font-size: 12px;
+    background-color: white;
+    height: 130px;
+    padding: 11px;
+    padding-top: 40px;
+
+}
+.h1-p h1{
+       color: rgb(213, 47, 1);
+}
+.h1-p p{
+    margin-top: 22px;
+}
+.why{
+      color: rgb(213, 47, 1);
+      font-size: 12px;
+      text-align: center;
+      margin-top: 30px;
+}
+.card{
+    height: 100px;
+    width: 140px;
+    background-color: white;
+    border-radius: 6px;
+    transition: transform 0.5s;
+    font-size: 12px;
+    text-align: center;
+    line-height: 30px;
+}
+.qorsho{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.card:hover{
+transform: scale(1.1);
+box-shadow: 1px 1px 9px rgba(255, 68, 0, 0.26);
+
+}
+ 
+.fa-solid{
+    font-size: 30px;
+   
+}
+.dhex{
+    padding-top: 3px;
+}
+.dhex p{
+    margin-top: 15px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 40px;
+}
+
+.comp{
+    font-size: 30px;
+     margin-top: 20px;
+}
+a{
+         color: rgb(213, 47, 1);
+}
+.card2{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+    align-items: center;
+}
+.cadd{
+    display: flex;
+    gap: 40px;
+}
+.wacdi{
+    height: 90px;
+    width: 120px;
+     background-color: white;
+    border-radius: 6px;
+    transition: transform 0.5s;
+    font-size: 12px;
+    text-align: center;
+     border-radius: 6px;
+     box-shadow: 1px 1px 5px rgba(63, 62, 62, 0.26);
+
+     
+   
+}
+.wacdi:hover{
+transform: scale(1.1);
+box-shadow: 1px 1px 9px rgba(255, 68, 0, 0.26);
+}
+.qeybta{
+background-color: white;
+height: 300px;
+width: 100%;
+margin-top: 50px;
+text-align: center;
+
+
+}
+.mice{
+    font-size: 30px;
+    padding-top: 12px;
+}
+.wp{
+    margin-top: 15px;
+    font-size: 12px;
+}
+.h2 h1{
+      color: rgb(213, 47, 1);
+      padding-top: 30px;
+}
+.waac{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.card2{
+    display: flex;
+    gap: 195px;
+}
+.h3 h1{
+       color: rgb(213, 47, 1);
+       text-align: center;
+       font-size: 27px;
+       margin-top: 50px;
+}
+.imm{
+    height: 250px;
+    width: 350px;
+      border-radius: 6px;
+     box-shadow: 1px 1px 8px rgba(63, 62, 62, 0.26);
+     margin-left: 333px;
+     margin-top: 30px;
+     transition: transform 1s;
+     background-image: url(/images/T-shirt.png);
+ 
+
+}
+.imm:hover{
+transform: scale(1.1);
+box-shadow: 1px 1px 9px rgba(255, 68, 0, 0.26);
+}
+
+
+.imm img{
+     height: 200px;
+    width: 350px;
+    
+}
+.xamze{
+    height: 500px;
+    width: 100%;
+    background-image: url(/images/Kaaraan\ dhis.jpg);
+}
+.qx{
+padding-top: 200px;
+text-align: center;
+color: white;
+
+}
+.qx button{
+    background-color: rgb(0, 106, 255);
+    color: white;
+    width: 100px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 10px;
+    padding: 3px;
+
+
+}
+.qx button:hover{
+    background-color: white;
+      color: rgb(213, 47, 1);
+}
+.tt{
+    text-align: center;
+    padding-top: 180px;
+  position: absolute;
+  margin-left: 77px;
+ 
+  line-height: 3px;
+  margin-top: 10px;
+  font-size: 11px;
+  
+}
+.saddex{
+    display: flex;
+gap: 10px;
+position: absolute;
+/* margin-top: ; */
+justify-content: center;
+text-align: center;
+    margin-left: 120px;
+
+}
+.saddexo{
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    background-color: rgb(239, 145, 116) ;
+    margin-top: 235px;
+    z-index: 1;
+
+
+}
+.back{
+    width: 350px;
+    height: 20px;
+    background-color: rgb(252, 252, 252);
+    position: absolute;
+    margin-top: 230px;
+          
+     box-shadow: 1px 1px 8px rgba(63, 62, 62, 0.26);
+    
+}
+.q3{
+    height: 370px;
+    width: 100%;
+    background-color: white;
+    margin-top: 50px;
+}
+.q-h1p{
+    text-align: center;
+    padding-top: 30px;
+    line-height: 18px;
+}
+.q3 h1{
+    color: rgb(213, 47, 1);
+}
+.cardf{
+    height: 60px;
+    width: 80px;
+   border-radius: 6px;
+     box-shadow: 1px 1px 8px rgba(63, 62, 62, 0.26);
+    border-radius: 5px;
+    transition: transform 0.5s;
+    
+}
+.cardf img{
+    width: 40px;
+    margin-left: 20px;
+    margin-top: 9px;
+}
+.cardf:hover{
+transform: scale(1.1);
+box-shadow: 1px 1px 9px rgba(255, 68, 0, 0.26);
+}
+.first-c{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 40px;
+}
+.qorsho{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 15px;
+}
+.qorsho2{
+     display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 20px;
+}
+.lasth1{
+    text-align: center;
+    line-height: 15px;
+    margin-top: 40px;
+}
+.lasth1 h1{
+     color: rgb(213, 47, 1);
+}
+.lasth1 p{
+    font-size: 13px;
+}
+.cady{
+     height: 70px;
+    width: 85px;
+   border-radius: 6px;
+     box-shadow: 1px 1px 8px rgba(63, 62, 62, 0.26);
+    border-radius: 5px;
+    transition: transform .3s;
+}
+.cady:hover{
+    transform: scale(1.1) ;
+    box-shadow: 1px 1px 9px rgba(255, 68, 0, 0.26);
+   
+ 
+
+}
+.yf{
+      display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+.cady img{
+    width: 35px;
+    margin-left: 26px;
+    margin-top: 10px;
+ 
+}
+.cady p{
+    text-align: center;
+    font-size: 11px;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+footer{
+    height: 30px;
+    width: 100%;
+    background-color:rgb(255, 80, 32); ;
+     text-align: center;
+     padding: 4px;
+     margin-top: 100px;
+ margin-left: -4px;
+ 
+
+}
+footer p{
+    margin-top: 5px;
+    color: white;
+}
+.menu img{
+    display: none;
+
+}
+ 
+@media screen and (max-width:768px){
+  
+  .cards{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .list ul{
+display: none;
+  }
+  .loogo img{
+    margin-left: 50px;
+  }
+  .menu img{
+    display: block;
+  }
+  .nav{
+    width: 50px;
+
+  }
+  nav{
+    width: 50px;
+  }
+  .h1-p {
+    width: 300px;
+  }
+  .waac{
+   
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+ 
